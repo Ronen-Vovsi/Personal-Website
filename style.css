@@ -1,0 +1,49 @@
+#title {
+    background-color: antiquewhite;
+}
+
+.icons-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+svg {
+    margin: 10px;
+}
+
+/* Skills */
+.skill-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 80px;
+}
+
+#features .col div {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+#features .col div:hover {
+    transform: translateY(-10px) scale(1.05); /* Move up and slightly enlarge */
+}
+/*  */
+
+/* projects */
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.05); /* Move up and slightly enlarge */
+}
+
+#projects h2 {
+    color:white;
+}
+
+#custom-cards {
+    background-color: rgb(172, 45, 45);
+    box-shadow: 0px 0px 15px 5px rgba(172, 45, 45, 1);
+}
+/*  */

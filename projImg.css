@@ -1,0 +1,44 @@
+.card1 {
+    background-image: url("./img/none-hover/PortfolioWebsite_none_hover.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card1:hover {
+    background-image: url("./img/hover/PersonalWebsite_hover.png");
+}
+
+.card1 h3 {
+    color:darkgoldenrod;
+}
+
+.card2 {
+    background-image: url("./img/none-hover/Calculator_none_hover.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card2:hover {
+    background-image: url("./img/hover/Calculator_hover.png");
+}
+
+
+.card3 {
+    background-image: url("./img/none-hover/ToDoList_none_hover.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card3:hover {
+    background-image: url("./img/hover/ToDoList_hover.png");
+}
+
+.card4 {
+    background-image: url("./img/none-hover/Stopwatch_none_hover.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card4:hover {
+    background-image: url("./img/hover/Stopwatch_hover.png");
+}
